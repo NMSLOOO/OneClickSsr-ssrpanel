@@ -5,5 +5,5 @@ result1=$?
 if [  "$result1" = 1 ]; then
   cd /root/shadowsocksr
   ulimit -n 655360
-  ./logrun.sh
+  ./run.sh
 fi
